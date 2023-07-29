@@ -1,3 +1,29 @@
 body{
-    background-color: fuchsia
+    background: fuchsia
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.separator{
+    margin-bottom: 20px
+}
+
+.card-title{
+    border: 3px solid lightblue;
+    text-align: center;
+}
+
+.product-availability{
+    background-color: darkgray;
+    color: yellow;
+    width: 100%
+}
+
+#row2{
+    background-color: darkgray;
+    color: yellow;
+    width: 100%
 }
